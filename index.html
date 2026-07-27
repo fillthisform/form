@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>😂 Secret Birthday Mission 😂</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="emoji">😂 🤣 😜 🥳 🤭 😆 😂 🤣</div>
+
+<div class="card" id="startScreen">
+
+<h1>🤫 SECRET BIRTHDAY MISSION 🤫</h1>
+
+<p>AI ne tumhari kuch legendary photos detect ki hain 😂</p>
+
+<p>Unhe dekhne ke liye pehle verification complete karna hoga.</p>
+
+<button onclick="startQuiz()">🚀 Start Mission</button>
+
+</div>
+
+<div class="card" id="quizScreen" style="display:none;">
+
+<h2 id="progress"></h2>
+
+<h1 id="question"></h1>
+
+<input
+type="text"
+id="answer"
+placeholder="Answer yaha likho">
+
+<br><br>
+
+<button onclick="checkAnswer()">
+Next ➜
+</button>
+
+</div>
+
+<div class="card" id="photoScreen" style="display:none;">
+
+<h2 id="photoNumber"></h2>
+
+<img id="photo" src="" alt="Photo">
+
+<h3>Ye photo kaisi lagi? 😂</h3>
+
+<div class="buttons">
+
+<button id="goodBtn">😍 Good</button>
+
+<button id="badBtn">😒 Bad</button>
+
+</div>
+
+</div>
+
+<div class="card" id="loadingScreen" style="display:none;">
+
+<h1>🤖 AI Verification...</h1>
+
+<div class="loader">
+<div class="bar" id="progressBar"></div>
+</div>
+
+<p id="loadingText">Initializing...</p>
+
+<p id="percent">0%</p>
+
+</div>
+
+<div class="card" id="finalScreen" style="display:none;">
+
+<h2>😂 LAST QUESTION 😂</h2>
+
+<p>
+
+Kya main ye photos
+
+Tumhare Birthday ke din
+
+Story pe laga sakti hu?
+
+😏
+
+</p>
+
+<div class="buttons">
+
+<button id="yesBtn">😊 YES</button>
+
+<button id="noBtn">😒 NO</button>
+
+</div>
+
+</div>
+
+<div class="card" id="endScreen" style="display:none;">
+
+<h1>🎉😂 Congratulations 😂🎉</h1>
+
+<p>
+
+Tum prank me officially fas gayi 🤣
+
+</p>
+
+<h2>Love You Behen ❤️</h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
